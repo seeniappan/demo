@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class HomeController {
     @RequestMapping("/")
     public String getHomePage(Model model){
-        model.addAttribute("myvar", "say Praise the LORD to the people");
+        model.addAttribute("myvar", "says Praise the LORD to the people");
         return "index";
     }
 }
